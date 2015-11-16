@@ -11,6 +11,7 @@ module.exports = {
   },
 
   importBowerDependencies: function(app) {
+    app.import(app.bowerDirectory + '/platform.js/platform.js');
     app.import(app.bowerDirectory + '/tether/js/utils.js');
     app.import(app.bowerDirectory + '/tether/js/tether.js');
     app.import(app.bowerDirectory + '/tether/js/abutment.js');
